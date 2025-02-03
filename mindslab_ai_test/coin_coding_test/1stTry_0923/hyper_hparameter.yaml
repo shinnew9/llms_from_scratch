@@ -1,0 +1,31 @@
+# hyper_hparameter.yaml
+
+train:
+  batch_size: 32
+  gpus: 0  # CPU 사용 시 0, GPU 사용시 1
+  lr: 0.0002
+  weight_decay: 0.00
+  opt_eps: 1e-9
+  beta1: 0.9
+  beta2: 0.999
+
+data:
+  train_images:
+    - './figure/figure2a_orig.png'
+    - './figure/figure2b_linear.png'
+    - './figure/figure2c_u.png'
+
+  val_images:
+    - './figure/figure2e_nuwave.png'
+    - './figure/figure2d_mu.png'
+
+arch:
+  layers: 8 
+  channels: 64
+  init_scale: 30
+  num_images_per_sample: 3
+
+log:
+  name: 'coin_hyper'
+  checkpoint_dir: '\checkpoint\hyper'
+  tensorboard_dir: '\tensorboard\hyper'
