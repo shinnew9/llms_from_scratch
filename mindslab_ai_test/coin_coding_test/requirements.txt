@@ -1,5 +1,0 @@
-omegaconf
-matplotlib
-pillow
-numpy
-pytorch-lightning==1.2.8
