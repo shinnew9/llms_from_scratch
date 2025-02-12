@@ -1,5 +1,5 @@
-This repository is for building LLMs from scratch. 
-I'm referring 'Milan Tamang' on Medium.
+This repository is for building LLMs from scratch.  <br>
+I'm referring 'Milan Tamang' on Medium (https://medium.com/@tamangmilan)
 
 
 Finished: 
